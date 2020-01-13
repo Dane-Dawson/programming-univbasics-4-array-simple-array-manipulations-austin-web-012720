@@ -7,7 +7,7 @@ def using_unshift(array, string)
 end
 
 def using_pop_(array)
-  removed1 = array.pop()
+  removed1 = array.pop
   removed1
 end
 
@@ -32,7 +32,7 @@ def using_concat(array)
 end
 
 def using_insert(array, element)
-  array.insert(3, element)  
+  array.insert(4, element)  
 end
 
 def using_uniq(array)
